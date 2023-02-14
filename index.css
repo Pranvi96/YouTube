@@ -1,0 +1,116 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* box-shadow: 0px 1px 1px 0px grey; */
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -4px rgb(0 0 0 / 10%);
+    padding: 5px;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+.icon {
+    width: 100px;
+    height: 46px;
+    top: 8px;
+    position: relative;
+}
+
+.search-container {
+    display: flex;
+}
+
+.search {
+    border-radius: 40px 0 0 40px;
+    border: 1px solid grey;
+    border-right: none;
+    padding: 5px 15px;
+}
+
+.search > input {
+    width: 500px;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+.search-btn {
+    border: 1px solid grey;
+    border-radius: 0 40px 40px 0;
+}
+
+.search-list {
+    background-color: #fff;
+    list-style: none;
+    position: fixed;
+    top: 50px;
+    width: 500px;
+    padding-bottom: 10px;
+}
+
+.search-list > li {
+    padding: 10px;
+}
+
+.sidebar {
+    /* box-shadow: 1px 2px 4px grey; */
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -4px rgb(0 0 0 / 10%);
+}
+
+.sidebar > ul{
+    list-style: none;
+    padding: 0 20px 0;
+}
+
+.body {
+    display: flex;
+}
+
+.main-container {
+
+}
+
+.button-list {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.button-list > button {
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 0px 10px;
+    height: 32px;
+    min-width: 12px;
+}
+
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.remove-anchor {
+    text-decoration: none;
+    color: black;
+}
+
+.video-card {
+    padding: 10px 0 10px 10px;
+    margin: 10px;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -4px rgb(0 0 0 / 10%);
+}
+
+.video-card > img {
+    border-radius: 8px;
+}
+
+.video-card > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-width: 330px;
+}
